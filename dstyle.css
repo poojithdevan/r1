@@ -1,0 +1,376 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+:root {
+    --major-bg-color: #131921;
+    --minor-bg-color: #ebeded;
+    --amazon-major-color: #febd68;
+
+}
+
+body{
+    background-color: var(--amazon-major-color);
+}
+/* Header */
+.header{
+    width: auto;
+    height: 10rem;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+.header .header-nav{
+    margin-top: .2rem;
+    display: flex;
+    justify-content: center;
+    width: auto;
+    
+}
+.header .header-nav .header-container{
+    width: auto;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.header .header-nav .header-container a{
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.header .header-nav .header-container img{
+    width: 6.0rem;
+    margin-right: .5rem;
+    padding-left: 0px;
+}
+ul{font-size: 1.2rem;
+    list-style-type: none;
+    margin-right: 20px;
+    padding-top: 3.0rem;
+    display: flex;
+    
+}
+li {
+    float:left;
+    padding-left: .5rem;
+    color: var(--minor-bg-color);
+}
+  
+a {
+    display: block;
+    padding: .8rem;
+}
+p{
+    font-family: 'Raleway', sans-serif;
+
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    
+}
+/* Hearder Responsive code */
+@media(max-width:998px) {
+    html{
+        font-size: 55%;
+    }
+}
+
+@media(max-width:768px) {
+    html{
+        font-size: 45%;
+    }
+}
+html{
+    font-size: 62.5%;
+    
+}
+
+
+.section-1{
+    width: auto;
+    height: auto;
+    background-color: var(--amazon-major-color);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    
+}
+
+
+.section-1 .section-1-container{
+    margin-top: 2.5rem;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 2.0rem;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 2rem;
+}
+.section-1 .section-1-container .section-1-column{
+    width: auto;
+    background-color: white;
+    padding: 2rem;
+    display: flex;   
+    border-radius: 4rem;
+    /* border-width: 5rem;
+    border-color: black; */
+}
+
+.section-1 .section-1-container .section-1-column p{
+    font-size: 1.5rem;
+    font-weight:bolder;
+}
+
+/* section-2 */
+    
+
+
+.section-2{
+    width: auto;
+    height: auto;
+    background-color: var(--amazon-major-color);
+    background-size: cover;
+    align-items: center;
+}
+
+
+.section-2 .section-2-container{
+    /* margin-top: 1rem; */
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 2rem; 
+    justify-content: center;
+    align-items: flex-start;
+    gap: 2rem;
+    width: auto;
+}
+.section-2 .section-2-container .section-2-column{
+    width: auto;
+    background-color: white;
+    padding: 2rem;
+    align-items: center;
+    justify-content: center; 
+}
+
+    
+
+.section-2 .section-2-container .section-2-column p{
+    font-size: 1.2rem;
+    text-align: center;
+    justify-content: center;
+    display: flex;   
+    width: auto;   
+}
+.section-2 .section-2-container .section-2-column .buttons{
+    
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+    
+}
+.section-2 .section-2-container .section-2-column .b1,.b2  {
+
+    font-size: 1.5erm;
+    width: auto;
+    height: 5rem;
+    background-color: var(--amazon-major-color);
+    border: .1rem solid red;
+    border-radius: 1.5rem;
+    padding-bottom: 1rem;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    color: var(--amazon-major-color);
+    padding-top: .6rem;
+}
+
+.section-2 .section-2-container .section-2-column .b1 a{
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.section-2 .section-2-container .section-2-column .b2 a{
+    text-decoration: none;
+    justify-content: center;
+    align-items: center
+}
+
+
+
+/* for notes page */
+
+
+
+
+.section-page{
+    width: auto;
+    height: auto;
+    background-color: var(--amazon-major-color);
+    background-size: cover;
+    align-items: center;
+}
+
+
+.section-page .section-page-container{
+    /* margin-top: 1rem; */
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 2rem; 
+    justify-content: center;
+    align-items: flex-start;
+    gap: 2rem;
+    width: auto;
+}
+.section-page .section-page-container .section-page-column{
+    width: auto;
+    background-color: white;
+    padding: 2rem;
+    align-items: center;
+    justify-content: center; 
+}
+
+    
+
+.section-page .section-page-container .section-page-column p{
+    font-size: 1.2rem;
+    text-align: center;
+    justify-content: center;
+    /* display: flex;    */
+    width: auto;   
+}
+.section-page .section-page-container .section-page -column .buttons{
+    
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+    
+}
+.section-page .section-page-container .section-page-column .b1,.b2  {
+
+    font-size: 1.5erm;
+    width: auto;
+    height: 5rem;
+    background-color: var(--amazon-major-color);
+    border: .1rem solid red;
+    border-radius: 1.5rem;
+    padding-bottom: 1rem;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    color: var(--amazon-major-color);
+    padding-top: .6rem;
+}
+
+.section-page.section-page-container .section-page-column .b1 a{
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.section-page .section-page-container .section-page-column .b2 a{
+    text-decoration: none;
+    justify-content: center;
+    align-items: center
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,331 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+:root {
+    --major-bg-color: #131921;
+    --minor-bg-color: #ebeded;
+    --amazon-major-color: #febd68;
+
+}
+
+body{
+    background-color: var(--amazon-major-color);
+    /* margin: 20px; */
+    text-align: center; 
+}
+/* Header */
+.header{
+    width: auto;
+    height: 10rem;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+.header .header-nav{
+    margin-top: .2rem;
+    display: flex;
+    justify-content: center;
+    width: auto;
+    
+}
+.header .header-nav .header-container{
+    width: auto;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.header .header-nav .header-container a{
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.header .header-nav .header-container img{
+    width: 6.0rem;
+    margin-right: .5rem;
+    padding-left: 0px;
+}
+ul{font-size: 1.2rem;
+    list-style-type: none;
+    margin-right: 20px;
+    padding-top: 3.0rem;
+    display: flex;
+    
+}
+li {
+    float:left;
+    padding-left: .5rem;
+    color: var(--minor-bg-color);
+}
+  
+a {
+    display: block;
+    padding: .8rem;
+}
+p{
+    font-family: 'Raleway', sans-serif;
+
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    
+}
+/* Hearder Responsive code */
+@media(max-width:998px) {
+    html{
+        font-size: 55%;
+    }
+}
+
+@media(max-width:768px) {
+    html{
+        font-size: 45%;
+    }
+}
+html{
+    font-size: 62.5%;
+    
+}
+
+/* Section 1 */
+.section-1{
+    width: auto;
+    height: auto;
+    background-color: var(--amazon-major-color);
+    background-size: cover;
+    display: flex;
+}
+
+
+.section-1 .section-1-container{
+    margin-top: 10.0rem;
+    margin-right: 2.0rem;
+    margin-left: 2.0rem;
+    margin-bottom: 2.0rem;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 2.0rem;
+}
+.section-1 .section-1-container .section-1-column{
+    width: auto;
+    background-color: white;
+    padding: 2.0rem;
+    display: flex;
+    
+    
+}
+.section-1 .section-1-container .section-1-column img{
+    
+    width: 60%;
+    height: 60%;
+    
+    
+}
+.section-1 .section-1-container .section-1-column p{
+    font-size: 3.rem;
+    text-align: left;
+    justify-content: center;
+    display: flex;
+    padding-left: 1rem;
+    /* padding-top: 13.0rem; */
+}
+/* section2 */
+.section-2{
+    width: auto;
+    height: auto;
+    background-color: var(--amazon-major-color);
+    background-size: cover;
+    display: flex;
+}
+.section-2 .section-2-container{
+    margin-top: 10.0rem;
+    margin-right: 2.0rem;
+    margin-left: 2.0rem;
+    margin-bottom: 2.0rem;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 2.0rem;
+}
+.section-2 .section-2-container .section-2-column{
+    width: auto;
+    background-color: white;
+    padding: 2.0rem;
+    display: flex;
+}
+.section-2 .section-2-container .section-2-column img{
+    
+    width: 60%;
+    height: 60%;
+}
+.section-2 .section-2-container .section-2-column p{
+    font-size: 3.rem;
+    text-align: left;
+    justify-content: center;
+    display: flex;
+    padding-left: 1rem;
+    
+}
+/* section3 */
+.section-3{
+    width: auto;
+    height: auto;
+    background-color: var(--amazon-major-color);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.section-3 .section-3-container{
+    margin-top: 10.0rem;
+    margin-right: 2.0rem;
+    margin-left: 2.0rem;
+    margin-bottom: 2.0rem;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 2.0rem;
+    
+}
+.section-3 .section-3-container .section-3-column{
+    width: 100%;
+    background-color: black;
+    padding-left: 2.0rem;
+    padding-bottom: 2.0rem;
+    padding-right: 2.0rem;
+    
+}
+.section-3 .section-3-container .section-3-column iframe{
+    
+    width: auto;
+    height: auto;
+    
+}
+.section-3 .section-3-container .section-3-column p{
+    color: white;
+    font-size: 3.rem;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    padding-top: 1.0rem;
+    padding-bottom: 1rem;
+}
+/* section4 */
+.quotes{
+    font-family: 'Raleway', sans-serif;
+    color: black;
+    font-size: 3.rem;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    margin-top: 10.0rem;
+    padding-top: 5.0rem;
+    
+}
+.num{
+    background-color: white;
+    color: var(--amazon-major-color);
+    font-size: 3.rem;
+    padding-bottom: 2.0rem;
+}
+.num-{
+    background-color: white;
+    font-size: 3.rem;
+    padding-bottom: 5rem;
+}
+.section-5{
+    width: auto;
+    height: auto;
+    background-color: var(--amazon-major-color);
+    background-size: cover;
+    /* display: flex; */
+    
+}
+.section-5 .section-5-container{
+    margin-top: 10.0rem;
+    margin-right: 2.0rem;
+    margin-left: 2.0rem;
+    margin-bottom: 2.0rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2.0rem;
+}
+.section-5 .section-5-container .section-5-column{
+    width: auto;
+    background-color: white;
+    padding: 2.0rem;
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+    
+   
+}
+.section-5 .section-5-container .section-5-column img{
+    
+    /* text-align: center;
+    justify-content: center; */
+    width: 100%;
+    height: 100%;
+    padding-bottom: 6.0rem;
+    padding-right: 1.0rem; 
+    /* padding-top: 8.0rem;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+.section-5 .section-5-container .section-5-column .p-p1 p{
+    font-size: 1.2rem;
+    text-align: justify;
+    /* padding-left: 2.0rem;
+    padding-right: 1rem;   
+    padding-bottom: 2.0rem; */
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.section-5 .section-5-container .section-5-column .p-p1 p1{
+    font-size: 1rem;
+    text-align: justify;
+    float: left;
+     
+    
+}
+
+footer{
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    
+}
+footer .icons {
+    padding: 2.0rem;
+    display: flex;
+    
+    
+}
+footer .icons a {
+    display: flex;
+    
+    
+}
+footer .icons img{
+    width: 4.0rem;
+    
+}
+footer ._c{
+    color: white;
+    align-items: center;
+    justify-content: center;
+    
+}
